@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.rubikcube.MainActivity">
+    <LinearLayout
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubik Dimension"
+            android:textSize="12sp"/>
+
+    <EditText
+        android:id="@+id/numberOfCubes"
+        android:layout_width="64dp"
+        android:layout_weight="1"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        tools:text="Enter figure for Rubik dimension e.g 2"
+
+        android:textSize="10sp"
+        />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="submit"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cubes ->"/>
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_marginLeft="4dp"
+            android:paddingTop="16dp"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="0"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="num. more than 2"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/numberOfInternalCubes"
+            android:layout_width="64dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            tools:text="Enter figure for Rubik dimension e.g 2"
+
+            android:textSize="10sp"
+            />
+
+
+        <Button
+            android:id="@+id/submit1"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="submit"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hidden ->"/>
+
+        <TextView
+            android:id="@+id/score1"
+            android:layout_marginLeft="4dp"
+            android:paddingTop="16dp"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="0"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubik Dimension"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/numberOfCubes2"
+            android:layout_width="64dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            tools:text="Enter figure for Rubik dimension e.g 2"
+
+            android:textSize="10sp"
+            />
+
+
+        <Button
+            android:id="@+id/submit2"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="submit"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cubes ->"/>
+
+        <TextView
+            android:id="@+id/score2"
+            android:layout_marginLeft="4dp"
+            android:paddingTop="16dp"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="0"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rubik Dimension"
+            android:textSize="12sp"/>
+
+        <EditText
+            android:id="@+id/numberOfCubes3"
+            android:layout_width="64dp"
+            android:layout_weight="1"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            tools:text="Enter figure for Rubik dimension e.g 2"
+
+            android:textSize="10sp"
+            />
+
+
+        <Button
+            android:id="@+id/submit3"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:text="submit"/>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:paddingLeft="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cubes ->"/>
+
+        <TextView
+            android:id="@+id/score3"
+            android:layout_marginLeft="4dp"
+            android:paddingTop="16dp"
+            android:layout_marginStart="4dp"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="0"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/list"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:layout_height="match_parent"/>
+
+
+
+
+
+
+
+
+</LinearLayout>
